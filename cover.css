@@ -1,0 +1,65 @@
+.newbody {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    position: relative;
+    padding: 10px;
+    margin: 10%;
+  }
+  
+  .image-container {
+    position: absolute;
+    height:450px;
+    width: 450px;
+    /* background: coral; */
+    overflow: hidden;
+  }
+  
+  .image-container > img {
+    width: 450px;
+    height: 450px;
+  }
+  
+  .cover {
+    position: relative;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    top: 0;
+    height:450px;
+    width: 450px;
+    z-index: 2;
+    opacity: ;
+    transition: 0.5s ease; 
+    background: white
+  }
+
+  .cover > p {
+
+  }
+
+  
+  
+  .box:hover > .cover {
+     opacity: 1;
+  }
+
+  .top {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 300%;
+    top: 12%;
+    left: 27%;
+    font-family: 'Rockwell';
+  }
+
+  .top2 {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 300%;
+    top: 12%;
+    left: 8%;
+    font-family: 'Rockwell';
+  }

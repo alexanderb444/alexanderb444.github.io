@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: #F59C9C; */
+    background-color: red;
+    color: white;
+    flex-direction: row;
+    justify-content: flex-start
+ }
+
+ .footer > div {
+    margin: 1px;
+    padding: 5x;
+    font-size: 100%;
+ }
+
+ @media only screen and (max-width: 600px) {
+   .footer {
+      margin: 1px;
+      padding: 1x;
+   }
