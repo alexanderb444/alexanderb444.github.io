@@ -88,9 +88,8 @@
         height:250px;
         width: 250px;
         z-index: 2;
-        opacity: ;
+        opacity: 0;
         transition: 0.5s ease; 
-        background: white
       }
 
       .top {
