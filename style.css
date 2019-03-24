@@ -65,14 +65,14 @@ h1 {
   }
 
   .profs > img {
-      padding-top: 7%;
+      padding-top: 4%;
       padding-right: 5%;
       width: 3%;
       height: 3%
   }
 
 
-  @media only screen and (max-width: 600px) {
+  @media screen and (min-device-width : 176px) and  (max-device-width : 600px) {
     .profs > img {
         width: 15%;
         height: 15%

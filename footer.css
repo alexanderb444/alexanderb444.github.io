@@ -17,7 +17,7 @@
     font-size: 100%;
  }
 
- @media only screen and (max-width: 600px) {
+ @media screen and (min-device-width : 176px) and  (max-device-width : 600px) {
    .footer {
       margin: 1px;
       padding: 1x;
