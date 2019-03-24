@@ -70,3 +70,10 @@ h1 {
       width: 3%;
       height: 3%
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .profs > img {
+        width: 15%;
+        height: 15%
+    }
